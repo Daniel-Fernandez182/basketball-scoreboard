@@ -1,0 +1,111 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "backboard">
+            <div class="time-limit">
+                <div>
+                    <p id="time1" class ="timeslots">00</p>
+                </div>
+                <h1 id="time-colon">:</h1>
+                <div>
+                    <p id="time2" class ="timeslots">00</p>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <p id="home-score" class ="score">0</p>
+                    <h3 class="score-title">HOME</h3>
+                </div>
+                <div>
+                    <p class="period-title">PERIOD</p>
+                    <h3 id="period" class="period">1</h3>
+                </div>
+                <div>
+                    <p id="guest-score" class="score">0</p>
+                    <h3 class="score-title">GUEST</h3>
+                </div>
+            </div>
+            <div class="container2">
+                <div>
+                    <h3 class="fouls-title">FOULS</h3>
+                    <p id="fouls-home" class ="foulbox">0</p>
+                </div>
+                <div>
+                    <h3 class="fouls-title">NO</h3>
+                    <p id="player-number">0</p>
+                </div>
+                <div>
+                    <h3 class="fouls-title">F</h3>
+                    <p id="foul-amount">0</p>
+                </div>
+                <div>
+                    <h3 class="fouls-title">FOULS</h3>
+                    <p id="fouls-guest" class ="foulbox">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="actions">
+                <h1 class="actions-title">HOME</h1>
+                <div class="add-score">
+                    <h1 class="actions-list">Points:</h1>
+                    <div class="spacer">
+                        <button class="add-points" onclick="plusOne(1)">+1</button>
+                        <button class="add-points" onclick="plusTwo(1)">+2</button>
+                        <button class="add-points" onclick="plusThree(1)">+3</button>
+                    </div>
+                </div>
+                <div class="add-score">
+                    <h1 class="actions-list">Fouls:</h1>
+                    <div class="spacer">
+                        <button class="add-points" onclick="addFoul(1)">+1</button>
+                    </div>
+                </div>
+                <div class="add-score">
+                    <h1 class="actions-list">Time:</h1>
+                    <div class="spacer2">
+                        <button class="add-time" onclick="addTime(60)">+1:00</button>
+                    </div>
+                </div>
+                <div class="add-score2">
+                    <div class="spacer2"><button class="add-time" onclick="addTime(120)">+2:00</button></div>
+                </div>
+                <div class="add-score2">
+                    <div class="spacer2"><button class="add-time" onclick="addTime(300)">+5:00</button></div>
+                </div>
+            </div>
+            <div class="actions">
+                <h1 class="actions-title">GUEST</h1>
+                <div class="add-score">
+                    <h1 class="actions-list">Points:</h1>
+                    <div class="spacer">
+                        <button class="add-points" onclick="plusOne(2)">+1</button>
+                        <button class="add-points" onclick="plusTwo(2)">+2</button>
+                        <button class="add-points" onclick="plusThree(2)">+3</button>
+                    </div>
+                </div>
+                <div class="add-score">
+                    <h1 class="actions-list">Fouls:</h1>
+                    <div class="spacer">
+                        <button class="add-points" onclick="addFoul(2)">+1</button>
+                    </div>
+                </div>
+                <div class="add-score">
+                    <h1 class="actions-list">Time:</h1>
+                    <div class="spacer2">
+                        <button class="add-time" onclick="addTime(60)">+1:00</button>
+                    </div>
+                </div>
+                <div class="add-score2">
+                    <div class="spacer2"><button class="add-time" onclick="addTime(120)">+2:00</button></div>
+                </div>
+                <div class="add-score2">
+                    <div class="spacer2"><button class="add-time" onclick="addTime(300)">+5:00</button></div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
