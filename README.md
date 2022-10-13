@@ -1,13 +1,8 @@
-# cz9adVfP
+# Basketball Scoreboard
 
-## About Scrimba
+This is a website that mimics the mechanisms and display of a typical high school or college scoreboard. A few interactables on the webpage and a bit of javascript functionality as well as some simple design patterns to make the scoreboard look very similar to that of a real life basketball scoreboard.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Very simple website, though a good exercise of JavaScript, HTML, CSS. Feel free to check it out on my personal website.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Link: Unavailable
+Status: Personal website still in production...
